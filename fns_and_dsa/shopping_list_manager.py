@@ -34,6 +34,7 @@ def main():
             break
         else:
             print ("Invalid choice. Please try again.")
-print\(f?['\"]Shopping\s*List\s*Manager['\"]\) /
+print = (f?['\"]Shopping\s*List\s*Manager['\"]\)
+         print = (f?['\"]1.\s*Add\s*Item['\"]\)
 if __name__ == "__main__":
     main()
