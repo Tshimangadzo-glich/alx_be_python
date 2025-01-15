@@ -17,24 +17,24 @@ def main():
             print(f"'{item}' has been added to your shopping list.")
 
         elif choice == '2':
-            item = input("Enter the item to remove: ")
-            if item in shopping_list:
-                shopping_list.remove(item)
-                print(f"'{item}' not found in your shopping list.")
+            remove_item = input("Enter the item to remove: ")
+            if remove_item in shopping_list:
+                shopping_list.remove(remove_item)
+            else:
+                print(f"'{remove_item}' not found in your shopping list." )
 
         elif choice == '3':
             if shopping_list:
                 print("Your shopping list:")
-                for i, item in enumerate(shopping_list, 1):
-                    print(f"{i}. {item}")
-                else:
-                    print("Your shopping list is currently empty.")
+                for i in shopping_list:
+                    print(f"{i}. ")
+            else:
+                print("Your shopping list is currently empty.")
         elif choice == '4':
             print ("Goodbye!")
             break
         else:
             print ("Invalid choice. Please try again.")
-print = (f?['\"]Shopping\s*List\s*Manager['\"]\)
-         print = (f?['\"]1.\s*Add\s*Item['\"]\)
+
 if __name__ == "__main__":
     main()
