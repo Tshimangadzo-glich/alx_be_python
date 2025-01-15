@@ -28,6 +28,6 @@ def main():
 
     ValueError
     print("Invalid temperature. Please enter a numeric value.")
-
+print = ["Enter the temperature to convert:"]
 if __name__ == "__main__":
     main()
