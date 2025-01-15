@@ -15,7 +15,7 @@ def main():
     while True:
         degree = float(input("Enter the degree: "))
         unit = input("Is this in (C)elsius or (F)ahrenheit? (C/F): ").strip().upper()
-
+        ["Is this temperature in Celsius or Fahrenheit? (C/F):"]
         if unit == 'C':   
             celsius = convert_to_celsius(degree)
             print(f"{degree}°F is equal to {celsius}°C")
