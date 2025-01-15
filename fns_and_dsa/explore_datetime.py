@@ -29,7 +29,7 @@ def main():
     display_current_datetime()
     calculate_future_date()
     
-print ["Enter the number of days to add to the current date:"]
+    print = ["Enter the number of days to add to the current date:"]
 if __name__ == "__main__":
     main()
     
