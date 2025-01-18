@@ -27,3 +27,54 @@ def safe_divide(numerator, denominator):
         return "Error: Both inputs must be numbers."
 ["Error: Cannot divide by zero."]
 ["Error: Please enter numeric values only."]
+ - [Got]
+6.0
+
+(4 chars long)
+[stderr]: 
+(0 chars long)
+[Expected]
+The result of the division is 6.0
+
+(34 chars long)
+[stderr]: [Anything]
+(0 chars long)
+
+ - [Got]
+['Error: Division by zero is not allowed.']
+
+(44 chars long)
+[stderr]: 
+(0 chars long)
+[Expected]
+Error: Cannot divide by zero.
+
+(30 chars long)
+[stderr]: [Anything]
+(0 chars long)
+
+- [Got]
+Error: Both inputs must be numbers.
+
+(36 chars long)
+[stderr]: 
+(0 chars long)
+[Expected]
+Error: Please enter numeric values only.
+
+(41 chars long)
+[stderr]: [Anything]
+(0 chars long)
+
+ - [Got]
+14.6
+
+(5 chars long)
+[stderr]: 
+(0 chars long)
+[Expected]
+The result of the division is 14.6
+
+(35 chars long)
+[stderr]: [Anything]
+(0 chars long)
