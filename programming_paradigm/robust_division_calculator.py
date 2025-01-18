@@ -25,3 +25,4 @@ def safe_divide(numerator, denominator):
     except ValueError:
         # Handle non-numeric inputs
         return "Error: Both inputs must be numbers."
+["Error: Cannot divide by zero."]
