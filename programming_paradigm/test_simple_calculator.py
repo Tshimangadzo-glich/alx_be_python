@@ -15,3 +15,5 @@ class SimpleCalculator:
 ["SimpleCalculator()"]
 
 ["import", "unittest", "from simple_calculator"]
+
+["test_addition", " self.assertEqual(self.calc.add", "test_addition(self)"]
