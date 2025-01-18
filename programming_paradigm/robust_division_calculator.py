@@ -20,7 +20,7 @@ def safe_divide(numerator, denominator):
 
     except ZeroDivisionError:
         # Handle division by zero
-        return "Error: Division by zero is not allowed."
+        return ["Error: Division by zero is not allowed."]
 
     except ValueError:
         # Handle non-numeric inputs
