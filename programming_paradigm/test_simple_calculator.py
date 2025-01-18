@@ -13,3 +13,5 @@ class SimpleCalculator:
             raise ZeroDivisionError("Cannot divide by zero")
         return a / b
 ["SimpleCalculator()"]
+
+["import", "unittest", "from simple_calculator"]
