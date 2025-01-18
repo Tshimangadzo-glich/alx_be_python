@@ -19,3 +19,5 @@ class SimpleCalculator:
 ["test_addition", " self.assertEqual(self.calc.add", "test_addition(self)"]
 
 ["test_subtraction", " self.assertEqual(self.calc.subtract", "test_subtraction(self)"]
+
+["test_multiplication(self)", " self.assertEqual(self.calc.multiply"]
