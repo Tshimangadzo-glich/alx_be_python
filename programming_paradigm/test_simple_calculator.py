@@ -17,3 +17,5 @@ class SimpleCalculator:
 ["import", "unittest", "from simple_calculator"]
 
 ["test_addition", " self.assertEqual(self.calc.add", "test_addition(self)"]
+
+["test_subtraction", " self.assertEqual(self.calc.subtract", "test_subtraction(self)"]
