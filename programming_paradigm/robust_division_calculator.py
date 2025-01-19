@@ -12,11 +12,10 @@ def safe_divide(numerator, denominator):
         return result
         return f"The result of the division is {result}"
     
-        else:
-        raise ZeroDivisionError
+    except ZeroDivisionError:
+         print("Error: cannot divide by zero. ")
+         return None
 
     except ValueError:
-        # Handle non-numeric inputs
-        return ("Error: Both inputs must be numbers.")
-["Error: Cannot divide by zero."]
-["Error: Please enter numeric values only."]
+        print("Error: Both inputs must be numbers. ")
+        return None
