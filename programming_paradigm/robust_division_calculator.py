@@ -20,3 +20,4 @@ def safe_divide(numerator, denominator):
         print("Error: Both inputs must be numbers. ")
         return None
 ["Error: Cannot divide by zero."]
+["Error: Please enter numeric values only."]
