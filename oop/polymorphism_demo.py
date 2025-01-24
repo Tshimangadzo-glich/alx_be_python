@@ -11,7 +11,7 @@ class Shape:
 
 def area(self):
     return self.length * self.width
-class Circle:
+class Circle(Shape):
     def area(self):
         return math.p1 * (self.radius ** 2)
     if __name__ == "__main__":
