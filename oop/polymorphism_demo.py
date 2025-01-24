@@ -9,7 +9,6 @@ class Shape:
                     self.length = length
                     self.width = width
                     return (f"Rectangle area: {rectangle.area()}")
-                    else print ("The area of the Rectangle is: 50")
                 
 def area(self):
     return self.length * self.width
@@ -22,6 +21,3 @@ class Circle(Shape):
                     self.rectangle = rectangle(5, 3)
                     self.circle = Circle(4)
                     print(f"Circle area: {circle.area()}")
-        if area(self): 
-            return (f"The area of the Circle is: 153.93804002589985")
-            
