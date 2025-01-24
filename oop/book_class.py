@@ -5,7 +5,6 @@ class Book:
         self.year = year
 
     def __str__(self):
-        """Returns a string format"""
         return f"{self.title} by {self.author}, published in {self.year}"
     
     def __repr__(self):
