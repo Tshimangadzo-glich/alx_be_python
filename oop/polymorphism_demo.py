@@ -20,8 +20,8 @@ class Circle(Shape):
     if __name__ == "__main__":
                     self.rectangle = rectangle
                     self.Circle = Circle
-                    rectangle = rectangle(5, 3)
-                    circle = Circle(4)
+                    self.rectangle = rectangle(5, 3)
+                    self.circle = Circle(4)
                     print(f"Circle area: {circle.area()}")
         if area(self): 
             return (f"The area of the Circle is: 153.93804002589985")
