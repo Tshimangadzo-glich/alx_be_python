@@ -8,7 +8,6 @@ class Shape:
                 def __init__(self, length: float, width: float):
                     self.length = length
                     self.width = width
-                  if area(self):
                     return (f"Rectangle area: {rectangle.area()}")
                     else print ("The area of the Rectangle is: 50")
                 
