@@ -8,10 +8,6 @@ class EBook(Book):
     self.title = title
     self.author = author
 
-def __init__(self, title, author):
-    self.title = title
-    self.author = author
-
 class PrintBook(Book):
    def __init__(self, title, author):
     self.title = title
@@ -39,4 +35,4 @@ print("------------------------")
 super().__init__", "self.file_size
 self.books = []", "append", "list_books"
 if __name__=="__main__":
-   main()
+   main
