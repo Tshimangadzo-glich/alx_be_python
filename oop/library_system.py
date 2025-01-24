@@ -32,7 +32,9 @@ if isinstance(Book, Ebook):
 elif isinstance(Book, Printbook, ):
                 print(f"Page Count: {Book.get_count} pages")        
 print("------------------------")
-super().__init__", "self.file_size
 self.books = []", "append", "list_books"
 if __name__=="__main__":
    main
+Book: Pride and Prejudice by Jane Austen
+EBook: Snow Crash by Neal Stephenson, File Size: 500KB
+PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
