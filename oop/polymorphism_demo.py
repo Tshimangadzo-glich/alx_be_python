@@ -21,4 +21,4 @@ class Circle(Shape):
                     print(f"Rectangle area: {rectangle.area()}")
                     print(f"Circle area: {circle.area()}")
 if __name__ == "__main__":
-    main()
+    main
