@@ -37,3 +37,4 @@ elif isinstance(Book, Printbook, ):
                 print(f"Page Count: {Book.get_count} pages")        
 print("------------------------")
 super().__init__", "self.file_size
+self.books = []", "append", "list_books"
