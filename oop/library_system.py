@@ -39,4 +39,4 @@ print("------------------------")
 super().__init__", "self.file_size
 self.books = []", "append", "list_books"
 if __name__=="__main__":
-   main
+   main()
