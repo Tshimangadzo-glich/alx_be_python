@@ -8,6 +8,10 @@ class Shape:
                 def __init__(self, length: float, width: float):
                     self.length = length
                     self.width = width
+                  if area(self) 
+                    return (f"Rectangle area: {rectangle.area()}")
+                    else print ("The area of the Rectangle is: 50")
+                
 def area(self):
     return self.length * self.width
 class Circle(Shape):
@@ -18,7 +22,8 @@ class Circle(Shape):
                     self.Circle = Circle
                     rectangle = rectangle(5, 3)
                     circle = Circle(4)
-                    print(f"Rectangle area: {rectangle.area()}")
                     print(f"Circle area: {circle.area()}")
+        if area(self) 
+            return (f"The area of the Circle is: 153.93804002589985")
 if __name__ == "__main__":
     main
