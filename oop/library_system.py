@@ -32,7 +32,10 @@ if isinstance(Book, Ebook):
 elif isinstance(Book, Printbook, ):
                 print(f"Page Count: {Book.get_count} pages")        
 print("------------------------")
-self.books = [], ("append", "list_books" )
+ def __init__(self):
+   self.Books = [""]
+   self.append = append
+   self.list_books = list_books
 super().__init__, ("self.file_size")
 if __name__=="__main__":
    main()
